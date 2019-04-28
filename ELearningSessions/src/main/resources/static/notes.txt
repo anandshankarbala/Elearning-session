@@ -1,0 +1,5 @@
+npm install axios
+npm install bootstrap@4.1.3
+npm install classnames
+npm install redux react-redux redux-thunk
+npm install react-router-dom

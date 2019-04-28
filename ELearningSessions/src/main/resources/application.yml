@@ -1,0 +1,15 @@
+spring:
+    jpa:
+      hibernate:        ddl-auto: update
+      properties:
+        hibernate:
+          dialect: org.hibernate.dialect.PostgreSQLDialect
+          jdbc:
+            lob:
+              non_contextual_creation: true
+            
+    datasource:
+      username: postgres
+      password: root
+      url: jdbc:postgresql://localhost:5432/elearning_session
+server:  port: 8089
